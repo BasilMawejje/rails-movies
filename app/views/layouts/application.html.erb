@@ -6,6 +6,7 @@
 
     <title><%= content_for?(:title) ? yield(:title) : "Movie Store" %></title>
 
+    <%= Gon::Base.render_data %>
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "vendor/modernizr" %>
     <%= csrf_meta_tags %>
