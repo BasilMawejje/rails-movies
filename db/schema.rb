@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20180209004117) do
     t.string "poster_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "video_url"
   end
 
   create_table "purchases", force: :cascade do |t|
