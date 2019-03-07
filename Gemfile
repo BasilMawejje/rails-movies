@@ -38,6 +38,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'braintree'
 gem 'figaro'
 gem 'gon'
+gem 'pry'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
